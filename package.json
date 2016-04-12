@@ -53,18 +53,14 @@
         "NODE_PATH": "./src",
         "NODE_ENV": "development",
         "PORT": 3000,
-        "APIPORT": 3030,
-        "PARSE_APPID": "bWhYYNJX1aX46H6dDZoPSoojluNlI4BkBfZgNmVZ",
-        "PARSE_APIKEY": "MhlqwKyojBeGj6Qs21vzncDXuGZYsA4XlhgszRCu"
+        "APIPORT": 3030
       }
     },
     "watch-client": {
       "command": "node webpack/webpack-dev-server.js",
       "env": {
         "UV_THREADPOOL_SIZE": 100,
-        "NODE_PATH": "./src",
-        "PARSE_APPID": "bWhYYNJX1aX46H6dDZoPSoojluNlI4BkBfZgNmVZ",
-        "PARSE_APIKEY": "MhlqwKyojBeGj6Qs21vzncDXuGZYsA4XlhgszRCu"
+        "NODE_PATH": "./src"
       }
     }
   },
